@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Allen 的第一個家
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Allen
+language: zh-tw
 timezone: ''
 
 # URL
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/rockyooooooo/rockyooooooo.github.io.git
+  branch: gh-pages
